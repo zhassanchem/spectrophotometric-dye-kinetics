@@ -12,6 +12,10 @@ An analytical chemistry portfolio project focusing on the quantitative determina
 3. **Kinetics:** Monitored absorbance decay at 10-second intervals upon adding sodium hypochlorite (bleach). Applied integrated rate laws to confirm reaction order.
 
 ## 📈 Calculated Lab Results
+### Calibration Curve
+![Calibration Plot](calibration_plot.png)
+### Kinetics Decay Curve
+![Kinetics Plot](kinetics_plot.png)
 * **Calibration Curve Equation:** $\text{Absorbance} = 0.0850 \times \text{Concentration} + 0.0031$
 * **Linear Correlation ($R^2$):** $0.9996$ (Proves high measurement precision)
 * **Calculated Unknown Beverage Concentration:** $4.92\text{ mg/L}$
