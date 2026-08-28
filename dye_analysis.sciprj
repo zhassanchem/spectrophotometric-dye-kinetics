@@ -1,0 +1,177 @@
+SciDAVis 2.2.7 project file
+<scripting-lang>	muParser
+<windows>	4
+<folder>	Kinnetics	Friday, August 28, 2026 3:27:12 PM Pakistan Standard Time	
+<table>
+6543
+<table creation_time="2026-28-08 15:16:47:000" caption_spec="%n%C{ - }%c" name="Table4" columns="3" rows="19"><comment><![CDATA[C:/Users/SPS 2026/kinetics_run.csv]]></comment><column creation_time="2026-28-08 15:16:47:906" caption_spec="%n%C{ - }%c" name="Time_s" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2026-28-08 15:16:47:906" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2026-28-08 15:16:47:906" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">1.0000000000000000e+01</row><row type="TypeDouble" index="2" invalid="no">2.0000000000000000e+01</row><row type="TypeDouble" index="3" invalid="no">3.0000000000000000e+01</row><row type="TypeDouble" index="4" invalid="no">4.0000000000000000e+01</row><row type="TypeDouble" index="5" invalid="no">5.0000000000000000e+01</row><row type="TypeDouble" index="6" invalid="no">6.0000000000000000e+01</row><row type="TypeDouble" index="7" invalid="no">7.0000000000000000e+01</row><row type="TypeDouble" index="8" invalid="no">8.0000000000000000e+01</row><row type="TypeDouble" index="9" invalid="no">9.0000000000000000e+01</row><row type="TypeDouble" index="10" invalid="no">1.0000000000000000e+02</row><row type="TypeDouble" index="11" invalid="no">1.1000000000000000e+02</row><row type="TypeDouble" index="12" invalid="no">1.2000000000000000e+02</row><row type="TypeDouble" index="13" invalid="no">1.3000000000000000e+02</row><row type="TypeDouble" index="14" invalid="no">1.4000000000000000e+02</row><row type="TypeDouble" index="15" invalid="no">1.5000000000000000e+02</row><row type="TypeDouble" index="16" invalid="no">1.6000000000000000e+02</row><row type="TypeDouble" index="17" invalid="no">1.7000000000000000e+02</row><row type="TypeDouble" index="18" invalid="no">1.8000000000000000e+02</row></column><column creation_time="2026-28-08 15:16:47:906" caption_spec="%n%C{ - }%c" name="Absorbance" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2026-28-08 15:16:47:906" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2026-28-08 15:16:47:906" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="14" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">8.5309999999999997e-01</row><row type="TypeDouble" index="1" invalid="no">7.3399999999999999e-01</row><row type="TypeDouble" index="2" invalid="no">6.2319999999999998e-01</row><row type="TypeDouble" index="3" invalid="no">5.2659999999999996e-01</row><row type="TypeDouble" index="4" invalid="no">4.5250000000000001e-01</row><row type="TypeDouble" index="5" invalid="no">3.8190000000000002e-01</row><row type="TypeDouble" index="6" invalid="no">3.2510000000000000e-01</row><row type="TypeDouble" index="7" invalid="no">2.7960000000000002e-01</row><row type="TypeDouble" index="8" invalid="no">2.2980000000000000e-01</row><row type="TypeDouble" index="9" invalid="no">1.9539999999999999e-01</row><row type="TypeDouble" index="10" invalid="no">1.7019999999999999e-01</row><row type="TypeDouble" index="11" invalid="no">1.4290000000000000e-01</row><row type="TypeDouble" index="12" invalid="no">1.2650000000000000e-01</row><row type="TypeDouble" index="13" invalid="no">1.0310000000000000e-01</row><row type="TypeDouble" index="14" invalid="no">8.5300000000000001e-02</row><row type="TypeDouble" index="15" invalid="no">8.3299999999999999e-02</row><row type="TypeDouble" index="16" invalid="no">6.5100000000000005e-02</row><row type="TypeDouble" index="17" invalid="no">5.6500000000000002e-02</row><row type="TypeDouble" index="18" invalid="no">4.2200000000000001e-02</row></column><column creation_time="2026-28-08 15:21:19:391" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2026-28-08 15:21:19:391" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2026-28-08 15:21:19:391" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="18">ln(col(&quot;Absorbance&quot;))</formula><row type="TypeDouble" index="0" invalid="no">-1.5887850506748802e-01</row><row type="TypeDouble" index="1" invalid="no">-3.0924625036762149e-01</row><row type="TypeDouble" index="2" invalid="no">-4.7288778442559859e-01</row><row type="TypeDouble" index="3" invalid="no">-6.4131403191992808e-01</row><row type="TypeDouble" index="4" invalid="no">-7.9296751584215619e-01</row><row type="TypeDouble" index="5" invalid="no">-9.6259648475066650e-01</row><row type="TypeDouble" index="6" invalid="no">-1.1236224516722775e+00</row><row type="TypeDouble" index="7" invalid="no">-1.2743952686224818e+00</row><row type="TypeDouble" index="8" invalid="no">-1.4705459135674817e+00</row><row type="TypeDouble" index="9" invalid="no">-1.6327065393734548e+00</row><row type="TypeDouble" index="10" invalid="no">-1.7707810628428633e+00</row><row type="TypeDouble" index="11" invalid="no">-1.9456101940463153e+00</row><row type="TypeDouble" index="12" invalid="no">-2.0675129708145623e+00</row><row type="TypeDouble" index="13" invalid="no">-2.2720558879592230e+00</row><row type="TypeDouble" index="14" invalid="no">-2.4615808244845034e+00</row><row type="TypeDouble" index="15" invalid="no">-2.4853067298093401e+00</row><row type="TypeDouble" index="16" invalid="no">-2.7318307297676134e+00</row><row type="TypeDouble" index="17" invalid="no">-2.8735146408297418e+00</row><row type="TypeDouble" index="18" invalid="no">-3.1653350579401711e+00</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width></table>
+geometry	9	-4	609	383	
+
+</table>
+<multiLayer>
+Graph2	1	1	Friday, August 28, 2026 3:26:49 PM Pakistan Standard Time
+geometry	622	1	618	371	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	428	271
+Alignement	0	0
+<graph>
+ggeometry	5	5	592	301
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	ln(Absorbance)	ln(Absorbance)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	9	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	7	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	7	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	7	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	7	75	0	0	0
+AxisFont0	MS Shell Dlg 2	7	50	0	0	0
+AxisFont1	MS Shell Dlg 2	7	50	0	0	0
+AxisFont2	MS Shell Dlg 2	7	50	0	0	0
+AxisFont3	MS Shell Dlg 2	7	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Table4_Time_s	Table4_Absorbance	1	0	#ff000000	0	1	11	1	#ff000000	#ff0000ff	0	#ff000000	0	1	0	64		2	0	0	18	1
+FunctionCurve	0,LinearFit1,x,0,180	2			0	1	#ffd40000	0	0	11	1	#ff000000	#ff0000ff	0	#ff000000	0	1	0	64		2	0	-216576800	542	1
+<formula>
+B=0.653983157894737
+A=-0.0040639649122807
+
+A*x+B
+
+</formula>
+scale	0	-0.2	1	0	8	5	0	0
+scale	1	-0.2	1	0	8	5	0	0
+scale	2	-50	200	20	6	5	0	0
+scale	3	-50	200	20	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	75.6931608133087	1	MS Shell Dlg 2	10	50	0	0	0	#ff000000	1	0	#00ffffff	0	■ Experimental Data	— First-Order Fit</legend>
+</graph>
+</multiLayer>
+</folder>
+<folder>	UV Vis	Friday, August 28, 2026 3:28:07 PM Pakistan Standard Time		current
+<table>
+3426
+<table creation_time="2026-28-08 15:09:12:000" caption_spec="%n%C{ - }%c" name="Table2" columns="3" rows="5"><comment><![CDATA[C:/Users/SPS 2026/Allura Red (Red 40) UV Vis Project.csv]]></comment><column creation_time="2026-28-08 15:09:12:598" caption_spec="%n%C{ - }%c" name="Concentration_mg_L" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2026-28-08 15:09:12:598" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2026-28-08 15:09:12:598" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">4.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">6.0000000000000000e+00</row><row type="TypeDouble" index="3" invalid="no">8.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">1.0000000000000000e+01</row></column><column creation_time="2026-28-08 15:09:12:598" caption_spec="%n%C{ - }%c" name="Absorbance" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2026-28-08 15:09:12:598" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2026-28-08 15:09:12:598" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.7349999999999999e-01</row><row type="TypeDouble" index="1" invalid="no">3.4160000000000001e-01</row><row type="TypeDouble" index="2" invalid="no">5.1390000000000002e-01</row><row type="TypeDouble" index="3" invalid="no">6.8659999999999999e-01</row><row type="TypeDouble" index="4" invalid="no">8.5129999999999995e-01</row></column><column creation_time="2026-28-08 15:11:05:379" caption_spec="%n%C{ - }%c" name="Unknown_Calc" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2026-28-08 15:11:05:379" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2026-28-08 15:11:05:379" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="4">(0.4215 - 0.0031) / 0.0850</formula><row type="TypeDouble" index="0" invalid="no">4.9223529411764702e+00</row><row type="TypeDouble" index="1" invalid="no">4.9223529411764702e+00</row><row type="TypeDouble" index="2" invalid="no">4.9223529411764702e+00</row><row type="TypeDouble" index="3" invalid="no">4.9223529411764702e+00</row><row type="TypeDouble" index="4" invalid="no">4.9223529411764702e+00</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width></table>
+geometry	8	-9	627	435	
+
+</table>
+<multiLayer>
+Graph1	1	1	Friday, August 28, 2026 3:09:31 PM Pakistan Standard Time
+geometry	628	-12	500	400	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	428	271
+Alignement	0	0
+<graph>
+ggeometry	5	5	474	331
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Concentration (mg/L)	Absorbance at λmax= 504nm			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Table2_Concentration_mg_L	Table2_Absorbance	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	4	1
+FunctionCurve	0,LinearFit1,x,2,10	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-216566960	542	1
+<formula>
+B=0.00320000000000009
+A=0.08503
+
+A*x+B
+
+</formula>
+scale	0	0.1	0.9	0	8	5	0	0
+scale	1	0.1	0.9	0	8	5	0	0
+scale	2	0	12	2	1	5	0	0
+scale	3	0	12	2	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	0.283687943262411	0.9	MS Shell Dlg 2	9	50	0	0	0	#ff000000	1	0	#00ffffff	0	■ Red 40 Standards	— Beer-Lambert Linear Fit	</legend>
+</graph>
+</multiLayer>
+</folder>
+<log>
+[Friday, August 28, 2026 3:09:49 PM Pakistan Standard Time	Plot: ''Graph1'']
+Linear Regression fit of dataset: Table2_Absorbance, using function: A*x+B
+Y standard errors: Unknown
+From x = 2 to x = 10
+B (y-intercept) = 0.00320000000000009 +/- 0.00257702671050704
+A (slope) = 0.08503 +/- 0.000388501394248894
+--------------------------------------------------------------------------------------
+Chi^2 = 1.81120000000001e-05
+R^2 = 0.999988729430394
+---------------------------------------------------------------------------------------
+[Friday, August 28, 2026 3:19:44 PM Pakistan Standard Time	Plot: ''Graph2'']
+Linear Regression fit of dataset: Table4_Absorbance, using function: A*x+B
+Y standard errors: Unknown
+From x = 0 to x = 180
+B (y-intercept) = 0.653983157894737 +/- 0.0396601097584987
+A (slope) = -0.0040639649122807 +/- 0.000376437102897007
+--------------------------------------------------------------------------------------
+Chi^2 = 0.13731204077193
+R^2 = 0.948323117705091
+---------------------------------------------------------------------------------------
+[Friday, August 28, 2026 3:22:03 PM Pakistan Standard Time	Plot: ''Graph2'']
+Linear Regression fit of dataset: Table4_Absorbance, using function: A*x+B
+Y standard errors: Unknown
+From x = 0 to x = 180
+B (y-intercept) = 0.653983157894737 +/- 0.0396601097584987
+A (slope) = -0.0040639649122807 +/- 0.000376437102897007
+--------------------------------------------------------------------------------------
+Chi^2 = 0.13731204077193
+R^2 = 0.948323117705091
+---------------------------------------------------------------------------------------
+[Friday, August 28, 2026 3:27:02 PM Pakistan Standard Time	Plot: ''Graph2'']
+Linear Regression fit of dataset: Table4_Absorbance, using function: A*x+B
+Y standard errors: Unknown
+From x = 0 to x = 180
+B (y-intercept) = 0.653983157894737 +/- 0.0396601097584987
+A (slope) = -0.0040639649122807 +/- 0.000376437102897007
+--------------------------------------------------------------------------------------
+Chi^2 = 0.13731204077193
+R^2 = 0.948323117705091
+---------------------------------------------------------------------------------------
+</log>
